@@ -1,4 +1,3 @@
-// src/components/Animation/index.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
 import Animation from "."; // Import the Animation component
 import { Button } from "@/components/Button"; // Import the Button component
@@ -10,6 +9,23 @@ const meta: Meta<typeof Animation> = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  argTypes: {
+    animationType: {
+      control: {
+        type: 'radio', // Radio buttons for animation type
+        options: [
+          "fade", 
+          "shake", 
+          "scaleUp", 
+          "scaleDown", 
+          "slideTop", 
+          "slideBottom", 
+          "slideLeft", 
+          "slideRight"
+        ], // Define the available options
+      },
+    },
+  },
 };
 
 export default meta;

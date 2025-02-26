@@ -559,14 +559,14 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-interactions@^8.5.8":
-  version "8.5.8"
-  resolved "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-8.5.8.tgz"
-  integrity sha512-SDyIV3M+c41QemXgg1OchsFBO6YGZkZcmVeUF8C7aWm5SnzLh6B2OiggiKvRk0v3Eh3rDLXdkx3XdR2F/rG+0Q==
+"@storybook/addon-interactions@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-8.6.0.tgz"
+  integrity sha512-AgobFrUxmKgGHKeOismuLZdXlndP3ZDquHztiomfMiu01xOqNPxG0+xoCcegvftU7hKE+TlBRzhjCWg/bFz4LQ==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "8.5.8"
-    "@storybook/test" "8.5.8"
+    "@storybook/instrumenter" "8.6.0"
+    "@storybook/test" "8.6.0"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
@@ -626,12 +626,17 @@
   resolved "https://registry.npmjs.org/@storybook/components/-/components-8.5.8.tgz"
   integrity sha512-PPEMqWPXn7rX+qISaOOv9CDSuuvG538f0+4M5Ppq2LwpjXecgOG5ktqJF0ZqxmTytT+RpEaJmgjGW0dMAKZswA==
 
-"@storybook/core@8.5.8":
-  version "8.5.8"
-  resolved "https://registry.npmjs.org/@storybook/core/-/core-8.5.8.tgz"
-  integrity sha512-OT02DQhkGpBgn5P+nZOZmbzxqubC4liVqbhpjp/HOGi5cOA3+fCJzDJeSDTu+pPh7dZnopC4XnR+5dWjtOJHdA==
+"@storybook/components@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/components/-/components-8.6.0.tgz"
+  integrity sha512-k5MQAuLPt5KOaa5J4QvX/WKucaiFTMJiEX5lsSaY6qON6Sx8PtnLQxVwWF7BIMW/jLpd94BUxrVjVrQKlwoLKQ==
+
+"@storybook/core@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/core/-/core-8.6.0.tgz"
+  integrity sha512-UzVo2sNz8PZuDp++/R9NBtjupSXhvxS8lptYcwtk51b6MvcM4AL/b4V3PGryOVJDru9sMwz+pzaj7Jg8RVFMJA==
   dependencies:
-    "@storybook/csf" "0.1.12"
+    "@storybook/theming" "8.6.0"
     better-opn "^3.0.2"
     browser-assert "^1.2.1"
     esbuild "^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0"
@@ -667,10 +672,10 @@
   resolved "https://registry.npmjs.org/@storybook/icons/-/icons-1.3.2.tgz"
   integrity sha512-t3xcbCKkPvqyef8urBM0j/nP6sKtnlRkVgC+8JTbTAZQjaTmOjes3byEgzs89p4B/K6cJsg9wLW2k3SknLtYJw==
 
-"@storybook/instrumenter@8.5.8":
-  version "8.5.8"
-  resolved "https://registry.npmjs.org/@storybook/instrumenter/-/instrumenter-8.5.8.tgz"
-  integrity sha512-+d5bbnwqcSQlj0wkZo6/1b+8rge70EU2wTq14DO22/VSXa9nm3bwPJlEyqBT7laWmC4DJQWHVJwF/790KjT9yg==
+"@storybook/instrumenter@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/instrumenter/-/instrumenter-8.6.0.tgz"
+  integrity sha512-eEY/Hfa3Vj5Nv4vHRHlSqjoyW6oAKNK3rKIXfL/eawQwb7rKhzijDLG5YBH44Hh7dEPIqUp0LEdgpyIY7GXezg==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@vitest/utils" "^2.1.1"
@@ -680,15 +685,30 @@
   resolved "https://registry.npmjs.org/@storybook/manager-api/-/manager-api-8.5.8.tgz"
   integrity sha512-ik3yikvYxAJMDFg0s3Pm7hZWucAlkFaaO7e2RlfOctaJFdaEi3evR4RS7GdmS38uKBEk31RC7x+nnIJkqEC59A==
 
+"@storybook/manager-api@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/manager-api/-/manager-api-8.6.0.tgz"
+  integrity sha512-ddBibYrO3yQCdtZBqQYqfABjR9eS+llvt2NFDajfyQw+zmuNIZfw4BDGKH1WHE4wm/kXmlFFhPHXaHgAPTRPfQ==
+
 "@storybook/preview-api@8.5.8":
   version "8.5.8"
   resolved "https://registry.npmjs.org/@storybook/preview-api/-/preview-api-8.5.8.tgz"
   integrity sha512-HJoz2o28VVprnU5OG6JO6CHrD3ah6qVPWixbnmyUKd0hOYF5dayK5ptmeLyUpYX56Eb2KoYcuVaeQqAby4RkNw==
 
+"@storybook/preview-api@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/preview-api/-/preview-api-8.6.0.tgz"
+  integrity sha512-c/sZj4Tb+DtdCndcjoFUneUwl2XUdQckqN4nf1SuIJ/BXRbAexlD04fvPJ4wzmwUNg8EQF7BhTWVNDa1RvJz2w==
+
 "@storybook/react-dom-shim@8.5.8":
   version "8.5.8"
   resolved "https://registry.npmjs.org/@storybook/react-dom-shim/-/react-dom-shim-8.5.8.tgz"
   integrity sha512-UT/kGJHPW+HLNCTmI1rV1to+dUZuXKUTaRv2wZ2BUq2/gjIuePyqQZYVQeb0LkZbuH2uviLrPfXpS5d3/RSUJw==
+
+"@storybook/react-dom-shim@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/react-dom-shim/-/react-dom-shim-8.6.0.tgz"
+  integrity sha512-5Y+vMHhcx0xnaNsLQMbkmjc3zkDn/fGBNsiLH2e4POvW3ZQvOxjoyxAsEQaKwLtFgsdCFSd2tR89F6ItYrA2JQ==
 
 "@storybook/react-vite@^8.5.8":
   version "8.5.8"
@@ -705,7 +725,19 @@
     resolve "^1.22.8"
     tsconfig-paths "^4.2.0"
 
-"@storybook/react@^8.5.8", "@storybook/react@8.5.8":
+"@storybook/react@^8.5.8":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/react/-/react-8.6.0.tgz"
+  integrity sha512-go0KhCFcOhxkTdaMCxeuJxmc/5CaiaO76+SBzIoPIMWEh9tZQmKb+vojdKcFZswHjZV3zA1uJFUzyympspRffA==
+  dependencies:
+    "@storybook/components" "8.6.0"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "8.6.0"
+    "@storybook/preview-api" "8.6.0"
+    "@storybook/react-dom-shim" "8.6.0"
+    "@storybook/theming" "8.6.0"
+
+"@storybook/react@8.5.8":
   version "8.5.8"
   resolved "https://registry.npmjs.org/@storybook/react/-/react-8.5.8.tgz"
   integrity sha512-QYgKpInR2FLiJHsRoGKCzNhKTRNjOssbLZVd3B0ZABUee+AjkwE0Pey7x2XaNAcp9PxSjQXEPGu+DlaP4BWw2Q==
@@ -717,14 +749,13 @@
     "@storybook/react-dom-shim" "8.5.8"
     "@storybook/theming" "8.5.8"
 
-"@storybook/test@^8.5.8", "@storybook/test@8.5.8":
-  version "8.5.8"
-  resolved "https://registry.npmjs.org/@storybook/test/-/test-8.5.8.tgz"
-  integrity sha512-cpdl9Vk4msRnkINwwSNLklyWXOwAsLAA7JsHMICNPR2GFVc8T+TwZHATcRToCHXhFJTZBMMBYrnqCdD5C2Kr3g==
+"@storybook/test@^8.6.0", "@storybook/test@8.5.8", "@storybook/test@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/test/-/test-8.6.0.tgz"
+  integrity sha512-qiiv4wh4FoxTb1PoiA/noo9HcLDqfTwL0svMoNpTy2Bxm6xajgg5zYmmIT4pKyQkMd9pfKKQKILok31VxAj8vw==
   dependencies:
-    "@storybook/csf" "0.1.12"
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "8.5.8"
+    "@storybook/instrumenter" "8.6.0"
     "@testing-library/dom" "10.4.0"
     "@testing-library/jest-dom" "6.5.0"
     "@testing-library/user-event" "14.5.2"
@@ -735,6 +766,11 @@
   version "8.5.8"
   resolved "https://registry.npmjs.org/@storybook/theming/-/theming-8.5.8.tgz"
   integrity sha512-/Rm6BV778sCT+3Ok861VYmw9BlEV5zcCq2zg5TOVuk8HqZw7H7VHtubVsjukEuhveYCs+oF+i2tv/II6jh6jdg==
+
+"@storybook/theming@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/@storybook/theming/-/theming-8.6.0.tgz"
+  integrity sha512-te7dl0ZXnEyKS4LW+QHc3MP7nurWhWhmClY7G2WKNW9eHenb9zvXkcAQt6c4OWhrJi01CAYoXmZNJP0jEzxRRQ==
 
 "@testing-library/dom@>=7.21.4", "@testing-library/dom@10.4.0":
   version "10.4.0"
@@ -4179,12 +4215,12 @@ stethoskop@1.0.0:
   dependencies:
     node-statsd "0.1.1"
 
-"storybook@^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0", storybook@^8.5.8:
-  version "8.5.8"
-  resolved "https://registry.npmjs.org/storybook/-/storybook-8.5.8.tgz"
-  integrity sha512-k3QDa7z4a656oO3Mx929KNm+xIdEI2nIDCKatVl1mA6vt+ge+uwoiG+ro182J9LOEppR5XXD2mQQi4u1xNsy6A==
+"storybook@^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0", storybook@^8.5.8, storybook@^8.6.0:
+  version "8.6.0"
+  resolved "https://registry.npmjs.org/storybook/-/storybook-8.6.0.tgz"
+  integrity sha512-NEHCK2nXogw7WxAkJfMwPnc5Cmh/KqVNrdaFeXBAKhC2Zr1FTZIiCR5nSUT85run44Wkpmo7qvUoKvII9GOWbA==
   dependencies:
-    "@storybook/core" "8.5.8"
+    "@storybook/core" "8.6.0"
 
 string_decoder@^1.1.1:
   version "1.3.0"

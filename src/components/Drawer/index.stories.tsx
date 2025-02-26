@@ -23,11 +23,11 @@ export const Default: Story = {
   render: (args) => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(args.isOpen);
 
-    const openDrawer = () => setIsDrawerOpen(false);
-    const closeDrawer = () => setIsDrawerOpen(false);
+    const openDrawer = () => setIsDrawerOpen(true);  // Open drawer
+    const closeDrawer = () => setIsDrawerOpen(false);  // Close drawer
 
     return (
-      <div className="flex flex-col items-center justify-center h-screen space-y-6">
+      <div className="flex flex-col items-center justify-center h-screen space-y-6 relative">
         {/* Button to open the drawer */}
         <button
           onClick={openDrawer}
@@ -36,8 +36,17 @@ export const Default: Story = {
           Open Drawer
         </button>
 
-        {/* Drawer Component */}
-        <Drawer isOpen={isDrawerOpen} onClose={closeDrawer} />
+        {/* Full-Screen Drawer Component */}
+        {isDrawerOpen && (
+          <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 z-50">
+            {/* Drawer content */}
+            <Drawer
+              isOpen={isDrawerOpen}
+              onClose={closeDrawer}
+              className="fixed top-0 right-0 w-full h-full bg-white"
+            />
+          </div>
+        )}
       </div>
     );
   },

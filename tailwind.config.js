@@ -54,6 +54,7 @@ export default {
       },
       colors: {
         primary: colors.blue,
+        secondary: colors.black
       },
     },
   },
