@@ -5,7 +5,7 @@ import Toast from '.'; // Ensure the correct import path
 export default {
   title: 'Components/Toast',
   component: Toast,
-  tags: ['autodocs'], // Automatically generate documentation
+  tags: ['autodocs'], 
   argTypes: {
     status: {
       control: { type: 'select', options: ['info', 'warning', 'success', 'error', 'saving', 'updated'] },
@@ -25,7 +25,7 @@ const Template = (args: { status: string; message: string }) => {
 
   return (
     <div>
-      <button className="bg-blue-500 text-white p-2 rounded" onClick={handleClick}>
+      <button className="border-2 text-black p-2 round" onClick={handleClick}>
         Show Toast
       </button>
       {showToast && <Toast {...args} />}

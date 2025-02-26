@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Info, Warning, CheckCircle, XCircle, FileText, ArrowCounterClockwise } from 'phosphor-react';
+import { Info, Warning, CheckCircle, XCircle, FileText, ArrowCounterClockwise, ArrowCircleDown, CircleNotch } from 'phosphor-react';
 
 type ToastStatus = 'info' | 'warning' | 'success' | 'error' | 'neutral' | 'saving' | 'updated' | 'loading';
 
@@ -27,11 +27,11 @@ const Toast: React.FC<ToastProps> = ({ status, message, onUndo, onClose }) => {
       case 'error':
         return <XCircle size={24} className="mr-2" />;
       case 'saving':
-        return <FileText size={24} className="mr-2" />;
-      case 'updated':
         return <CheckCircle size={24} className="mr-2" />;
-      case 'loading':
-        return <ArrowCounterClockwise size={24} className="mr-2 animate-spin" />;
+      //case 'updated':
+        //return <CheckCircle size={24} className="mr-2" />;
+      case 'updated':
+        return <CircleNotch size={24} className="mr-2 animate-spin" />;
       default:
         return <Info size={24} className="mr-2" />;
     }
