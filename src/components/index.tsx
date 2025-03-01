@@ -2,3 +2,10 @@ export * from "./Button";
 export * from "./Input";
 export * from "./Layout";
 export * from "./Text";
+export * from "./Alert";
+export * from "./Animation";
+export * from "./DatePicker";
+export * from "./Drawer";
+export * from "./FileUpload";
+export * from "./Table";
+export * from "./Toast"

@@ -1,8 +1,10 @@
 import React from "react";
 
 export type PropsOf<
-  C extends keyof JSX.IntrinsicElements | React.JSXElementConstructor<unknown>
-> = JSX.LibraryManagedAttributes<C, React.ComponentPropsWithoutRef<C>>;
+  C extends React.ElementType
+> = C extends keyof JSX.IntrinsicElements
+  ? JSX.IntrinsicElements[C]
+  : React.ComponentPropsWithRef<C>;
 
 type AsProp<C extends React.ElementType> = {
   /**
